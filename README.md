@@ -5,7 +5,7 @@
 This project is a **GUI-based Network Port Scanner** developed using Python.
 It allows users to scan a target system (IP address or hostname) and identify **open ports** within a given range.
 
-The application uses **socket programming and multithreading** to perform fast and efficient port scanning, with a clean and user-friendly interface.
+The application uses **socket programming and multithreading** to perform fast and efficient port scanning, along with a clean and user-friendly interface.
 
 ---
 
@@ -17,7 +17,7 @@ The application uses **socket programming and multithreading** to perform fast a
 * Real-time progress updates
 * Modern GUI (dark theme)
 * Save scan results to file
-* Clear and user-friendly interface
+* Simple and user-friendly interface
 
 ---
 
@@ -50,8 +50,8 @@ cd port-scanner
 
 ### 2. Install dependencies
 
-Tkinter comes pre-installed with Python.
-If not:
+Tkinter is usually pre-installed with Python.
+If not, install using:
 
 ```
 pip install tk
@@ -67,13 +67,13 @@ Run the application:
 python port_scanner.py
 ```
 
-### Input:
+### Input
 
 * **Target** → IP address or hostname (e.g., `127.0.0.1`)
 * **Start Port** → Starting port number
 * **End Port** → Ending port number
 
-### Output:
+### Output
 
 * Displays list of open ports
 * Shows scanning progress
@@ -81,20 +81,12 @@ python port_scanner.py
 
 ---
 
-## 📸 Example
+## 📸 Screenshot
 
-```
-Scanning 127.0.0.1...
-
-Port 80 (HTTP) OPEN
-Port 443 (HTTPS) OPEN
-
-Scan Completed
-```
+<img width="100%" alt="Port Scanner UI" src="https://github.com/user-attachments/assets/2bf48ff0-f403-447d-8a19-2af575e1f3e2" />
 
 ---
-##Image 
-<img width="1914" height="606" alt="port" src="https://github.com/user-attachments/assets/2bf48ff0-f403-447d-8a19-2af575e1f3e2" />
+
 ## ⚠️ Disclaimer
 
 This tool is intended for **educational and ethical purposes only**.
@@ -117,4 +109,4 @@ Do not scan unauthorized systems without permission.
 
 
 
-Give it a star ⭐ on GitHub!
+If you like this project, give it a **star ⭐ on GitHub!**
